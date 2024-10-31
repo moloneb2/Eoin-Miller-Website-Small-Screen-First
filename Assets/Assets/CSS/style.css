@@ -20,6 +20,7 @@ body {
 }
 /* Header */
 header {
+    
     background-color: lightcoral;
     padding: 0 1rem;
     position: fixed;
@@ -36,6 +37,9 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
+h4{
+    display: inline-block;
 }
 #menu {
     font-size: 110%;
@@ -74,8 +78,11 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    float: right;
 }
-
+#logo{
+    display: inline-block;
+}
 /* Main content */
 main {
     background-color: lightblue;
