@@ -1,4 +1,5 @@
 /* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -6,9 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h4{
-    text-decoration: underline;
-}
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -39,7 +38,15 @@ h1 {
     color: #252525;
 }
 h4{
+    margin-left: 0.3vh;
+    text-decoration: underline;
     display: inline-block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+#logo{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 150%;
 }
 #menu {
     font-size: 110%;
