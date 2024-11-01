@@ -20,6 +20,7 @@ body {
 /* Header */
 header {
     
+    height: 2.688rem;
     background-color: lightcoral;
     padding: 0 1rem;
     position: fixed;
@@ -37,7 +38,7 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
 }
-h4{
+h5{
     margin-left: 0.3vh;
     text-decoration: underline;
     display: inline-block;
@@ -86,6 +87,11 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     float: right;
+}
+#path-menu{
+    font-size: 1.5rem;
+    float: right;
+    margin-top: 0.8rem;
 }
 #logo{
     display: inline-block;
