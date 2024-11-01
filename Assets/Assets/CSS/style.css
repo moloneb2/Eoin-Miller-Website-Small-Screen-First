@@ -20,13 +20,16 @@ body {
 /* Header */
 header {
     
-    height: 2.688rem;
+    
     background-color: lightcoral;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a {
     text-decoration: none;
@@ -86,7 +89,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    float: right;
+    
 }
 #path-menu{
     font-size: 1.5rem;
